@@ -1,0 +1,113 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-cl-audio-player",
+        "scope": null,
+        "escapedName": "react-cl-audio-player",
+        "name": "react-cl-audio-player",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/daniel/Documents/databook"
+    ]
+  ],
+  "_from": "react-cl-audio-player@latest",
+  "_id": "react-cl-audio-player@1.0.0",
+  "_inCache": true,
+  "_location": "/react-cl-audio-player",
+  "_nodeVersion": "4.1.2",
+  "_npmUser": {
+    "name": "cezarluiz0",
+    "email": "cezarluiz.c@gmail.com"
+  },
+  "_npmVersion": "2.14.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-cl-audio-player",
+    "scope": null,
+    "escapedName": "react-cl-audio-player",
+    "name": "react-cl-audio-player",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-cl-audio-player/-/react-cl-audio-player-1.0.0.tgz",
+  "_shasum": "59fa5b57993e1c0291ab2ba420d9620518529095",
+  "_shrinkwrap": null,
+  "_spec": "react-cl-audio-player",
+  "_where": "/home/daniel/Documents/databook",
+  "author": {
+    "name": "Cezar Luiz"
+  },
+  "browserify-shim": {
+    "react": "global:React"
+  },
+  "bugs": {
+    "url": "https://github.com/CezarLuiz0/react-cl-audio-player/issues"
+  },
+  "dependencies": {
+    "classnames": "^2.2.0",
+    "shuffle-array": "^0.1.0"
+  },
+  "description": "CLAudioPlayer",
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.6.0",
+    "eslint-plugin-react": "^3.5.1",
+    "gulp": "^3.9.0",
+    "react": "^0.14.0",
+    "react-component-gulp-tasks": "^0.7.6",
+    "react-dom": "^0.14.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "59fa5b57993e1c0291ab2ba420d9620518529095",
+    "tarball": "https://registry.npmjs.org/react-cl-audio-player/-/react-cl-audio-player-1.0.0.tgz"
+  },
+  "gitHead": "53cb1df4b175c8b797422ff15a16cdaff22426df",
+  "homepage": "https://github.com/CezarLuiz0/react-cl-audio-player",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-audio",
+    "audio-player",
+    "html5",
+    "javascript",
+    "audio"
+  ],
+  "license": "MIT",
+  "main": "lib/ClAudioPlayer.js",
+  "maintainers": [
+    {
+      "name": "cezarluiz0",
+      "email": "cezarluiz.c@gmail.com"
+    }
+  ],
+  "name": "react-cl-audio-player",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": "^0.14.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CezarLuiz0/react-cl-audio-player.git"
+  },
+  "scripts": {
+    "build": "gulp clean && NODE_ENV=production gulp build",
+    "examples": "gulp dev:server",
+    "lint": "eslint ./; true",
+    "publish:site": "NODE_ENV=production gulp publish:examples",
+    "release": "NODE_ENV=production gulp release",
+    "start": "gulp dev",
+    "test": "echo \"no tests yet\" && exit 0",
+    "watch": "gulp watch:lib"
+  },
+  "version": "1.0.0"
+}
